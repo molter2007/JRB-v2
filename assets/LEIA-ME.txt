@@ -1,0 +1,11 @@
+ORGANIZAÇÃO DAS IMAGENS DO SITE
+
+assets/logos/            Logo JR Brasil (usada no menu e no rodapé)
+assets/banners/          Banners: jrbrasil-banner.jpg (Sobre Nós) e banner-representadas.jpg (Nossas Representadas)
+assets/video/            Vídeo de fundo do topo (fundo-circuito.mp4)
+assets/representadas/    Logos das marcas representadas (frutap.png, memphis.png)
+assets/icons/            Ícones da aba do navegador (o ícone já está embutido no index.html)
+
+Para adicionar uma marca: coloque a imagem em assets/representadas/ e use
+<img src="assets/representadas/nome-da-marca.png" alt="Nome da marca">
+dentro de um <div class="brand-slot">.
